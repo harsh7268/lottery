@@ -196,7 +196,7 @@ function showListOrder3(list_orders, x) {
         unsetCookie();
         return false;
       }
-      $(".num span").text(`Trx ${data.data.money_user} `);
+      $(".num span").text(`Inr ${data.data.money_user} `);
     });
   $(".reload_money").click(function (e) {
     e.preventDefault();
@@ -211,7 +211,7 @@ function showListOrder3(list_orders, x) {
         unsetCookie();
         return false;
       }
-      $(".num span").text(`Trx ${data.data.money_user} `);
+      $(".num span").text(`Inr ${data.data.money_user} `);
     });
   });
   $(".van-overlay, .foot .left").click(function (e) {

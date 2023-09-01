@@ -235,7 +235,7 @@ function reload_money() {
                 unsetCookie();
                 return false;
             }
-            $(".num span").text(`Trx ${data.data.money_user} `);
+            $(".num span").text(`Inr ${data.data.money_user} `);
             $('.Loading').fadeOut(0);
         });
 }
